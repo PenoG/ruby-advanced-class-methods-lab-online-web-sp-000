@@ -5,7 +5,6 @@ class Song
   def initialize(create)
     @create = create
     save
-    return self.create
   end
 
   def self.all
